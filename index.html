@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Гра в карти</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="start-container">
+      <label for="player1-name">Ім'я гравця 1:</label>
+      <input type="text" id="player1-name">
+      <label for="player2-name">Ім'я гравця 2:</label>
+      <input type="text" id="player2-name">
+      <button id="start-button">Почати гру</button>
+    </div>
+    <div id="game-container" class="hidden">
+      <div id="players"></div>
+      <div id="cards-container"></div>
+      <button id="play-button">Грати</button>
+      <div id="result"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
